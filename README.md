@@ -2,7 +2,6 @@
 
 This repository highlights my practical work in **SQL proficiency**, **data cleaning**, **data transformation**, and **relational database design**. The projects are built with a strong focus on **data quality**, **query performance**, and foundational skills relevant to **machine learning workflows**.
 
-> 🚧 This repository is evolving. It starts with one project per category and will grow in complexity and coverage over time.
 
 ---
 
