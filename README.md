@@ -1,11 +1,3 @@
-Great! Based on your plan to start with one **easier** project in each category — while leaving space to grow — I’ve updated the README accordingly. This version:
-
-* Clearly sets the expectation that each category has one initial project.
-* Emphasizes future development (so it shows you're proactive).
-* Keeps the structure professional and market-ready.
-
----
-
 # 📊 Database Systems and Projects
 
 This repository highlights my practical work in **SQL proficiency**, **data cleaning**, **data transformation**, and **relational database design**. The projects are built with a strong focus on **data quality**, **query performance**, and foundational skills relevant to **machine learning workflows**.
