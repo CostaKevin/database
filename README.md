@@ -114,7 +114,3 @@ This repository is licensed under the [MIT License](LICENSE), allowing free use,
 ---
 
 > *"Turning raw data into reliable knowledge — one query at a time."*
-
----
-
-Would you like this as a downloadable `README.md` file too?
