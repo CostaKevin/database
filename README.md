@@ -56,8 +56,7 @@ Each project is categorized by focus area with descriptions and links:
 
 > * **[Retail Sales Analysis](link)**
 >   Cleaned and queried sales data to extract KPIs and customer insights.
-> * **[Employee Records Cleanup](link)**
->   Removed duplicates, standardized formatting, and prepared HR data for reporting.
+
 
 ---
 
@@ -65,8 +64,7 @@ Each project is categorized by focus area with descriptions and links:
 
 > * **[Hospital Database Design](link)**
 >   Designed an ER model and normalized schema for managing patient records and appointments.
-> * **[Library System Modeling](link)**
->   Created a logical and physical design for a relational library system.
+
 
 ---
 
@@ -74,8 +72,7 @@ Each project is categorized by focus area with descriptions and links:
 
 > * **[Customer Churn Pipeline](link)**
 >   Simulated a basic ETL process using SQL scripts to clean, transform, and load telecom customer data.
-> * **[Product Catalog Normalization](link)**
->   Restructured product data, applied denormalization, and explained transformation flow.
+
 
 ---
 
