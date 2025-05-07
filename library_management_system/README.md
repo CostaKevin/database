@@ -2,85 +2,72 @@
 
 ## 🧾 Project Overview
 
-This project demonstrates a complete relational database design and SQL querying solution for a **Library Management System**. It includes schema creation, data insertion, and both basic and advanced queries. The goal is to showcase skills in database modeling, normalization, and SQL query writing.
+This project showcases my ability to design and optimize relational databases using **SQL**, focusing on real-world problem-solving. It includes **data modeling**, **schema creation**, and the implementation of **advanced SQL queries** to manage library operations efficiently. I also emphasize **data integrity**, **query optimization**, and **scalability**.
 
 ---
 
 ## 🗃️ Database Schema
 
-The system consists of the following relational tables:
+The LMS system is structured around core relational tables to manage data effectively:
 
-| Table        | Description                            |
-|--------------|----------------------------------------|
-| authors      | Stores author information              |
-| books        | Contains book details                  |
-| members      | Holds data on registered library users |
-| loans        | Tracks book borrow and return activity |
-| fines        | Records fines associated with overdue loans |
-| book_authors  | Junction table for books and authors   |
+| Table         | Description                                 |
+| ------------- | ------------------------------------------- |
+| authors       | Stores author information                   |
+| books         | Contains book details                       |
+| members       | Holds data on registered library users      |
+| loans         | Tracks book borrow and return activity      |
+| fines         | Records fines associated with overdue loans |
+| book\_authors | Junction table for books and authors        |
 
-### 📌 Entity Relationships
+### Entity Relationships
 
-- One **Author** → Many **Books**
-- One **Book** → Many **Authors**
-- Many-to-Many relationship handled via **BookAuthors**
-- One **Book** → Many **Loans**
-- One **Member** → Many **Loans**
-- One **Loan** → Zero or One **Fine**
-
----
-
-## 🧱 Tables and Fields
-
-```sql
-authors(AuthorID, Name, Country)
-books(BookID, Title, Genre, PublishedYear)
-members(MemberID, Name, JoinDate, Email)
-loans(LoanID, BookID, MemberID, LoanDate, ReturnDate)
-fines(fine_id, Loan_id, amount, paid)
-book_authors(book_id, author_id)
-```
-
-- `BookAuthors` is a junction table to support the many-to-many relationship between Books and Authors.
+* One **Author** → Many **Books**
+* One **Book** → Many **Authors**
+* Many-to-Many relationship handled via **BookAuthors**
+* One **Book** → Many **Loans**
+* One **Member** → Many **Loans**
+* One **Loan** → Zero or One **Fine**
 
 ---
 
-## 📥 Sample Data
+## 🧱 Key Features
 
-Each table contains a set of meaningful sample entries to simulate real-world operations. The `INSERT INTO` scripts are included in the `/sql` folder.
+* **Relational Database Design**: Designed efficient schemas with normalization to prevent redundancy and ensure data consistency.
+* **SQL Queries**: Wrote optimized SQL queries to extract insights, track book loans, calculate fines, and manage member activity.
+* **Real-World Simulations**: Applied real-life scenarios like fine calculations and loan tracking to ensure that the system simulates actual operations.
 
 ---
 
 ## 🔍 Sample SQL Queries
 
-### ✅ Basic Queries
+### Basic Queries
 
-- List all books and their authors
-- View active (unreturned) loans
-- Display all registered members
+* List all books and their authors.
+* Display active (unreturned) loans.
+* View registered library members.
 
-### 📊 Advanced Queries
+### Advanced Queries
 
-- Top 3 most borrowed books
-- Calculate total fines per member
-- List members who borrowed books from multiple genres
-
----
-
-## 🛠️ Tools Used
-
-- SQL (Microsoft SQL Server Management Studio)
-- ERD diagram tool (MySQL Workbench)
-- Text editor (VS Code)
+* **Top 3 Most Borrowed Books**: Optimized query for frequent loan queries.
+* **Calculate Total Fines per Member**: Aggregated data to track overdue fines.
+* **List Members Borrowing from Multiple Genres**: Query to identify members with diverse reading habits.
 
 ---
 
-## 📈 Learning Objectives
+## 🛠️ Tools & Technologies
 
-- Practice **relational database design** and normalization
-- Demonstrate **SQL proficiency** (SELECT, JOINs, GROUP BY, etc.)
-- Understand **real-world relationships** in systems
-- Apply **data modeling and schema creation**
+* **SQL** (Microsoft SQL Server Management Studio): Mastery in writing efficient queries for data extraction and manipulation.
+* **ERD Tool** (MySQL Workbench): Created Entity-Relationship Diagrams to visualize and design the database schema.
+* **Text Editor** (VS Code): Used for writing SQL scripts and managing the project structure.
+
+---
+
+## 📈 Key Takeaways
+
+* **SQL Proficiency**: Expertise in using SQL for querying and database management.
+* **Database Design**: Created normalized relational schemas, ensuring efficient data storage and retrieval.
+* **Real-World Application**: Focused on implementing a system that could be practically used by libraries to manage operations.
+* **Optimized Queries**: Wrote advanced SQL queries for real-time data analytics and reporting.
 
 ---
 
@@ -103,23 +90,17 @@ lms-sql-project/
 
 ## 🧠 Future Improvements
 
-- Add triggers for automatic fine calculation
-- Create stored procedures for issuing and returning books
-- Introduce user roles (admin, member)
-- Add UI integration via web or Python app
-
----
-
-## 🫧 Design Reflection
-
-In this version, I’ve included a dedicated `Fines` table to manage overdue penalties separately from the `Loans` table. This separation allows for cleaner data organization and better scalability. In future improvements, I plan to expand this table to support more detailed tracking — such as timestamps for when fines were issued and paid, user who processed the fine, fine reason codes, and even audit logs for payment history. These changes will make the system more robust and ready for production-scale environments.
+* Add triggers for automatic fine calculation based on loan return dates.
+* Create stored procedures for issuing and returning books.
+* Implement user roles (admin, member) with different levels of access.
+* Integrate with a web or Python-based front-end for a complete system.
 
 ---
 
 ## 👨‍💻 Author
-**Kevin Costa**  
-Data Scientist | Machine Learning Researcher | Python Developer | Scientific Computing
 
-📫 dacosta.kevin.mota@gmail.com
+**Kevin Costa**
+Data Scientist | Machine Learning Researcher | SQL Enthusiast
 
-🌐 https://www.linkedin.com/in/costakevinn/
+📫 [Email](mailto:dacosta.kevin.mota@gmail.com)
+🌐 [LinkedIn](https://www.linkedin.com/in/costakevinn/)
