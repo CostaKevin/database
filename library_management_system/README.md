@@ -98,9 +98,9 @@ lms-sql-project/
 ---
 
 ## 👨‍💻 Author
+**Kevin Costa**  
+Data Scientist | Machine Learning Researcher | Python Developer | Scientific Computing
 
-**Kevin Costa**
-Data Scientist | Machine Learning Researcher | SQL Enthusiast
+📫 dacosta.kevin.mota@gmail.com
 
-📫 [Email](mailto:dacosta.kevin.mota@gmail.com)
-🌐 [LinkedIn](https://www.linkedin.com/in/costakevinn/)
+🌐 https://www.linkedin.com/in/costakevinn/
