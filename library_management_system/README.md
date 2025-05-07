@@ -82,6 +82,7 @@ lms-sql-project/
 │   └── queries.sql
 ├── diagrams/
 │   └── erd.png
+│   └── erd.mwb
 └── screenshots/
     └── sample_query_results.png
 ```
