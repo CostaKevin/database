@@ -1,59 +1,124 @@
-# Database Systems and Projects
+Great! Based on your plan to start with one **easier** project in each category — while leaving space to grow — I’ve updated the README accordingly. This version:
 
-This repository showcases my work in SQL proficiency, data cleaning, data transformation, and database design. It reflects my hands-on experience using SQL and industry-standard tools to create and manage databases while applying essential techniques in data analysis and machine learning engineering.
+* Clearly sets the expectation that each category has one initial project.
+* Emphasizes future development (so it shows you're proactive).
+* Keeps the structure professional and market-ready.
 
-## 📌 About This Repository
+---
 
-This repository demonstrates my skills in database design, data cleaning, data transformation, and SQL querying. It includes various projects where I focus on cleaning and transforming raw data, ensuring it’s ready for analysis and machine learning tasks. Through these projects, I continue to expand my knowledge and hands-on experience in SQL and data workflows.
+# 📊 Database Systems and Projects
 
-## 💼 Key Skills and Tools
-- **Languages**: SQL
-- **Database Management Systems**:
-  - SQL Server Management Studio (SSMS) for managing and querying databases.
-- **Data Modeling Tools**:
-  - MySQL Workbench for designing ER Diagrams and building relational database schemas.
-- **SQL Proficiency**: Strong ability in writing optimized SQL queries for data manipulation and extraction.
-- **Data Cleaning & Transformation**: Experience in cleaning, transforming, and structuring data for further analysis and machine learning tasks.
-- **Database Design**: Familiarity with schema design, normalization, and ensuring data integrity for efficient storage and retrieval.
-- **Concepts**: Relational Databases, Data Integrity, SQL Querying, Data Modeling
+This repository highlights my practical work in **SQL proficiency**, **data cleaning**, **data transformation**, and **relational database design**. The projects are built with a strong focus on **data quality**, **query performance**, and foundational skills relevant to **machine learning workflows**.
 
-## 📁 Repository Structure
+> 🚧 This repository is evolving. It starts with one project per category and will grow in complexity and coverage over time.
 
-This repository includes projects that emphasize SQL proficiency, data cleaning, transformation, and database design:
+---
 
-### 🗂️ 1. SQL Queries & Data Analysis
-- **SQL Queries**: Focused on writing optimized SQL queries for data extraction, manipulation, and cleaning.
-- **Data Cleaning**: Practical work cleaning raw datasets by removing duplicates, handling missing data, and ensuring data quality.
-- **Data Transformation**: Transforming data to make it suitable for analysis and integration into machine learning workflows.
+## 🔍 About This Repository
 
-### 🧑‍💻 2. Data Modeling & Database Design
-- **ER Diagrams**: Designed ER diagrams using MySQL Workbench to represent database structures and relationships visually.
-- **Schema Design**: Applied normalization principles to build well-structured, scalable, and efficient databases.
+I created this repository to demonstrate my ability to:
 
-### 🚀 3. Data Preparation for Machine Learning
-- **Data Transformation**: Preparing datasets for machine learning algorithms by applying necessary transformations, such as scaling and encoding.
-- **Preprocessing**: Ensuring the data is in an optimal form for machine learning by handling outliers and ensuring data consistency.
+* Write efficient SQL queries for **data extraction and manipulation**.
+* Clean and transform raw datasets into formats suitable for analysis.
+* Design and model relational databases using ER diagrams.
+* Simulate structured SQL-based workflows inspired by modern data pipelines.
 
-## 📘 Documentation & Code Explanation
+These projects reflect my growing understanding of the **data lifecycle** and its role in analytics and machine learning.
 
-Each project in this repository is fully documented with:
-- **Overview**: An explanation of the database structure, data cleaning process, and transformation techniques used.
-- **SQL Code**: Clean, commented SQL queries that detail steps in data manipulation and analysis.
-- **Key Concepts**: A summary of the core database and data transformation techniques applied.
+---
 
-## 📈 Key Takeaways
-- **SQL Proficiency**: Deep expertise in SQL for data extraction, manipulation, and cleaning.
-- **Data Cleaning & Transformation**: Practical experience in transforming raw data into usable forms for analysis and machine learning.
-- **Database Design**: Ability to design efficient, normalized databases that support data integrity and ease of use.
-- **Data Preprocessing for ML**: Gaining proficiency in preparing data for machine learning workflows.
+## 💼 Key Skills & Tools
 
-## 🌐 Links
-- 💻 GitHub Page: [CostaKevin.github.io](https://costakevin.github.io)
-- 📧 Email: dacosta.kevin.mota@gmail.com
-- 💼 LinkedIn: [linkedin.com/in/costakevinn](https://www.linkedin.com/in/costakevinn)
+**Languages:**
 
-## License
+* SQL
 
-This repository is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
+**Database Management:**
 
-> *“Turning data into insight, and insight into understanding.”*
+* SQL Server Management Studio (SSMS)
+
+**Data Modeling:**
+
+* MySQL Workbench (for ER diagrams and schema design)
+
+**Core Skills:**
+
+* Data Cleaning & Transformation
+* Relational Database Design
+* Query Optimization & Joins
+* Data Normalization
+* Data Preparation for Machine Learning
+* Understanding of Data Pipelines (ETL concepts)
+
+**Pipeline Thinking (Foundational Concepts):**
+
+* SQL scripting as modular transformations
+* Ordered execution of steps simulating real-world ETL
+* Workflow design inspired by tools like DBT and Airflow
+
+---
+
+## 🗂️ Project Categories
+
+Each section includes one initial project as a starting point. New and more advanced projects will be added over time.
+
+### 📁 1. SQL Queries & Data Analysis
+
+> 🔹 **[Simple Sales Report](link)**
+> Extracted sales metrics (totals, averages, top products) using SELECT, JOIN, GROUP BY, and filtering logic.
+> Includes initial data cleanup and normalization.
+
+---
+
+### 🛠️ 2. Data Modeling & Database Design
+
+> 🔹 **[Library Management ER Model](link)**
+> Designed an ER diagram and relational schema for a simple library system using MySQL Workbench.
+> Applied basic normalization principles.
+
+---
+
+### 🔄 3. Data Cleaning & Transformation Pipelines
+
+> 🔹 **[Customer Data Preparation](link)**
+> Cleaned and structured raw customer data using SQL.
+> Removed duplicates, handled nulls, and prepared columns for machine learning integration.
+
+---
+
+## 📘 Documentation & Code Structure
+
+Each project includes:
+
+* **Overview**: Brief description of the problem and solution.
+* **SQL Scripts**: Clean, modular SQL queries with comments.
+* **Notes**: Key concepts used and future improvements.
+
+---
+
+## ✅ Key Takeaways
+
+* Practical experience in **SQL** for data analytics and engineering.
+* Ability to clean, transform, and structure data for downstream use.
+* Hands-on skills in **data modeling** and schema design.
+* Foundation in **workflow thinking** and ETL pipeline structure using SQL alone.
+
+---
+
+## 📄 License
+
+This repository is licensed under the [MIT License](LICENSE), allowing free use, modification, and distribution of all included code and documentation, with proper attribution.
+
+---
+
+## 🌐 Contact & Links
+
+* 🔗 GitHub Page: [CostaKevin.github.io](https://CostaKevin.github.io)
+* 📧 Email: [dacosta.kevin.mota@gmail.com](mailto:dacosta.kevin.mota@gmail.com)
+* 💼 LinkedIn: [linkedin.com/in/costakevinn](https://linkedin.com/in/costakevinn)
+
+---
+
+> *"Turning raw data into reliable knowledge — one query at a time."*
+
+---
