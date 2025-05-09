@@ -75,16 +75,27 @@ The LMS system is structured around core relational tables to manage data effect
 
 ```
 lms-sql-project/
-├── README.md
-├── sql/
-│   ├── schema.sql
-│   ├── insert_data.sql
-│   └── queries.sql
-├── diagrams/
-│   └── erd.png
-│   └── erd.mwb
-└── screenshots/
-    └── sample_query_results.png
+├── README.md                # A brief introduction and instructions on using the repository
+├── /ddl-scripts             # Contains the schema creation scripts (e.g., CREATE TABLE statements)
+│   └── create_tables.sql    # Script to create all database tables
+│   └── alter_tables.sql     # Script for any alterations (if needed)
+│
+├── /data-inserts            # Contains the scripts for inserting data into tables
+│   └── insert_authors.sql   # Script to insert randomized authors
+│   └── insert_books.sql     # Script to insert randomized books
+│   └── insert_loans.sql     # Script to insert randomized loans
+│   └── insert_fines.sql     # Script to insert randomized fines
+│
+├── /queries-examples        # Contains example queries to demonstrate usage
+│   └── query_loans.sql      # Example query to check loan records
+│   └── query_fines.sql      # Example query for fines
+│   └── query_books.sql      # Example query for books
+│   └── query_members.sql    # Example query to check members' information
+│
+└── /documentation           # Additional documents, if any (e.g., project proposal, flowcharts)
+    └── project_summary.md   # Overview and summary of the project
+    └── database_diagram.png # Optional, diagram of the database schema
+
 ```
 
 ---
