@@ -74,7 +74,7 @@ The LMS system is structured around core relational tables to manage data effect
 ## 📁 Project Structure
 
 ```
-lms-sql-project/
+library_management_system/
 ├── README.md                # A brief introduction and instructions on using the repository
 ├── /ddl-scripts             # Contains the schema creation scripts (e.g., CREATE TABLE statements)
 │   └── create_tables.sql    # Script to create all database tables
