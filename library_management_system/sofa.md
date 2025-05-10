@@ -1,5 +1,3 @@
----
-
 # 📚 **Plano de Estudos: Estágio em Análise Financeira** 💼
 
 ## **Objetivo:**
