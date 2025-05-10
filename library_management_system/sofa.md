@@ -1,5 +1,3 @@
-Aqui está o plano de estudos adaptado em um formato mais amigável e visual, no estilo de um README de GitHub, com emojis e formatação agradável:
-
 ---
 
 # 📚 **Plano de Estudos: Estágio em Análise Financeira** 💼
